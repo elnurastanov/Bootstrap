@@ -1,0 +1,237 @@
+body,
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background: rgba(21, 31, 33, 0.4);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #d1d1d1;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+
+/* HEADER */
+
+#header {
+    background: url(../img/universe.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#header span {
+    font-size: 120px;
+}
+
+#header p {
+    font-size: x-large;
+}
+
+#header a .fas {
+    color: #fff;
+    margin: 10% 0;
+}
+
+#header a .fas:hover {
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    #header span {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 411px) {
+    #header span {
+        font-size: 60px;
+    }
+}
+
+
+/* SOCIAL */
+
+#social {
+    padding: 40px 0;
+}
+
+#social .fab {
+    color: #1979a9;
+    margin-top: 30%;
+}
+
+#social .fab:hover {
+    color: #e07b39;
+}
+
+
+/* GALAXIES */
+
+#galaxy {
+    background-color: #f6f6f6;
+    padding: 40px 0;
+}
+
+#galaxy img {
+    zoom: 0.3;
+}
+
+#galaxy p {
+    margin-top: 18%;
+    font-weight: 700;
+}
+
+#galaxy .galaxy__second--p {
+    margin-top: 10%;
+    font-weight: 700;
+}
+
+
+/* STARS */
+
+#star {
+    padding: 40px 0;
+}
+
+#star .row {
+    margin-bottom: 20px;
+}
+
+#star .card {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#star .card .card-text {
+    font-weight: 300;
+}
+
+#star .card .card-img {
+    position: relative;
+}
+
+#star .card .card-img .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+#star .card .card-img .img-overlay:hover {
+    opacity: 0;
+}
+
+
+/* EARTH */
+
+#earth {
+    background-color: #f6f6f6;
+    padding: 40px 0;
+}
+
+#earth .planet {
+    background-image: url(../img/earth.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin: 40px auto;
+    border-radius: 50%;
+    box-shadow: -20px -20px 50px 2px rgba(0, 0, 0, 1) inset, 10px 5px 15px 0 rgba(0, 0, 0, 0.5);
+    animation: spin 30s linear reverse infinite;
+}
+
+@keyframes spin {
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+/* TELESCOPE */
+
+#telescope {
+    padding: 40px 0;
+}
+
+#telescope .card .card-header {
+    background-color: #6e6e6e;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+#telescope .card .main {
+    background-color: #e07b39;
+    font-size: 22px;
+    padding: 15px 0;
+}
+
+#telescope .card .card-header:hover {
+    background-color: #e07b39;
+}
+
+
+/* WHO ARE YOU */
+
+#you {
+    padding: 40px 0;
+    background-color: #f6f6f6;
+}
+
+#you #quotes {
+    margin-top: 20px;
+}
+
+#you .carousel-indicators {
+    margin-bottom: -20px;
+}
+
+#you .carousel-indicators li {
+    background-color: #e07b39;
+}
+
+#you .corousel-inner {
+    margin-bottom: 10px;
+}
+
+
+/* CONTACT */
+
+#contact {
+    padding: 40px 0;
+}
+
+
+/* FOOTER */
+
+#footer {
+    padding: 40px 0;
+    background-color: #1979a9;
+    color: whitesmoke;
+}
+
+#footer .fab {
+    color: #e07b39;
+}
+
+#footer .fab:hover {
+    color: whitesmoke;
+}
